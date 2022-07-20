@@ -29,7 +29,7 @@ public class Workshop13Application implements ApplicationRunner {
 			db.setDataDir(new File(dataDir));
 
 			if (!db.isDataDirValid()) {
-				System.err.printf("%s does not exist, is not a directory or not writable\n");
+				System.err.printf("%s does not exist, is not a directory or not writable\n", dataDir);
 				System.exit(-1);
 			}
 			
