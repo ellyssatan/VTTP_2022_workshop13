@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body th:object = "${contact}">
+    <h1>Contact information</h1>
+    <br>
+    <p>Name:</p>
+    <!-- accessing properties of the object so * -->
+    <p data-th-text = "*{name}"></p>
+    <br>
+    <p>Email:</p>
+    <p data-th-text = "*{email}"></p>
+    <br>
+    <p>Phone Number:</p>
+    <p data-th-text = "*{phone}"></p>
+</body>
+</html>

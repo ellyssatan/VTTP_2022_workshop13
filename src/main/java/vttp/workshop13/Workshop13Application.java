@@ -39,14 +39,6 @@ public class Workshop13Application implements ApplicationRunner {
 		}
 
 	}
-
-	public boolean save() {
-		return true;
-	}
-
-	public void read(String field) {
-
-	}
 	
 
 	

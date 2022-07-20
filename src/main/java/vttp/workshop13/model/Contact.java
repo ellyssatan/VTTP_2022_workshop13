@@ -29,7 +29,7 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "Contact [email=" + email + ", id=" + id + ", name=" + name + ", phone=" + phone + "]";
+        return "Contact [email=" + email + ", id=" + id + ", name=" + name + ", phone=" + phone + "]\n";
     }
 
 
